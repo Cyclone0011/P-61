@@ -1,0 +1,116 @@
+.topnav {
+    position: fixed;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    top: 0;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+#ins {
+    font-size: 25px;
+    text-shadow: -4px -2px grey
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Super Mario 256";
+    text-shadow: 4px 2px grey;
+}
+
+.hr {
+    background-color: black;
+    height: 10px;
+    width: 100px;
+    margin-left: 47%;
+
+}
+
+.sec {
+    padding: 100px;
+    text-align: center;
+    background: repeating-linear-gradient(45deg, #5433FF, #20BDFF, #A5FECB);
+    background-repeat: no-repeat;
+    width: cover;
+}
+
+.bio {
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-variant: small-caps;
+
+}
+
+ul {
+    list-style-type: none;
+    z-index: 10;
+    top: 0px;
+
+}
+
+li {
+
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #00a832;
+    display: inline;
+    transition: 0.5s background;
+
+}
+
+li:hover {
+    background-color: #007a24;
+    
+
+}
+
+a:active,
+a:default,
+a:visited,
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#insp img {
+    border-radius: 0%;
+    height: 500px;
+    width: 400px;
+    transition: transform .2s;
+}
+
+#insp img:hover {
+    transform: scale(0.9);
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+
+#home {
+    z-index: 9;
+}
+
+html {
+      scroll-behavior: smooth;
+
+}
+#map{
+    background-color: lightgray;
+}
+#red{
+    background-color: firebrick;
+}
